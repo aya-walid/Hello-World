@@ -13,7 +13,7 @@ if (isset($_GET['controller']) && isset($_GET['action'])) {
     $controllerName = $_GET['controller'].'Controller';
     $actionName = $_GET['action'];
 }
-
+echo "this is a new line";
 //echo "Controller: ".$controllerName;
 //echo "<br/>";
 //echo "Action: ".$actionName;
