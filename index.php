@@ -14,6 +14,7 @@ if (isset($_GET['controller']) && isset($_GET['action'])) {
     $actionName = $_GET['action'];
 }
 echo "this is a new line";
+echo "this is in edited file";
 //echo "Controller: ".$controllerName;
 //echo "<br/>";
 //echo "Action: ".$actionName;
